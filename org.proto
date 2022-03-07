@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+message Organisation {
+	required int32 date = 1;
+	required string uridicAdres = 2;
+	required string name = 3;
+	optional string doingRole = 4;
+	optional bool economicDoing = 5;
+}
